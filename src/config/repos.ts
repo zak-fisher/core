@@ -1,4 +1,3 @@
 export default {
-  app: 3001,
-  smarttv: 3002,
+  app: 3000,
 }
