@@ -10,7 +10,7 @@ Since every repo in this ecosystem consumes the core as a dependency, literally 
 
 For example, if you have the SmartTV repo cloned, you can `cd ../smarttv`, then update `package.json` with a relative path to this repo.
 
-```json
+```js
 // smarttv/package.json
 {
   ...,
@@ -22,7 +22,7 @@ For example, if you have the SmartTV repo cloned, you can `cd ../smarttv`, then 
 
 > Each time you make a change in the core, you need to rebuild it and update the dependency in the consuming repo, then restart the server.
 
-1. Chang: Added a new helper method!
+1. Change: Added a new helper method!
 
 2. Build that sucker :P
 ```bash
