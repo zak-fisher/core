@@ -36,5 +36,10 @@ yarn build
 rm -rf node_modules && yarn && yarn start
 ```
 
-### Don't forget to set the `@fubo/core` dependency back to a remote path when you're done!
+*Don't forget to set the `@fubo/core` dependency back to a remote path when you're done!*
 
+---
+
+## How to publish
+
+TBD
